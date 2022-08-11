@@ -23,7 +23,7 @@
   height: 500px; }
   .header .textos-hero {
     grid-column: 1/7;
-    padding-right: 20px; }
+    padding-right: 40px; }
     .header .textos-hero .weight-600 {
       font-size: 600; }
     .header .textos-hero .paragraph {
@@ -39,11 +39,11 @@
       width: 130px;
       text-align: center; }
   .header .img-hero {
-    width: 100%;
+    width: 95%;
     height: auto;
     grid-column: 7/13; }
     .header .img-hero .img {
-      width: 95%;
-      max-width: 400px; }
+      width: 100%;
+      max-width: 500px; }
 
 /*# sourceMappingURL=estilos.css.map */

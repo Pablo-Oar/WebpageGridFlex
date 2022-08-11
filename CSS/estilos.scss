@@ -26,7 +26,7 @@
     height: 500px;
     .textos-hero{
         grid-column: 1/7;
-        padding-right: 20px;
+        padding-right: 40px;
         .weight-600{
             font-size: 600;
         }
@@ -46,12 +46,12 @@
         }
     }
     .img-hero{
-        width: 100%;
+        width: 95%;
         height: auto;
         grid-column: 7/13;
         .img{
-            width: 95%;
-            max-width: 400px;
+            width: 100%;
+            max-width: 500px;
         }
     }
 }
