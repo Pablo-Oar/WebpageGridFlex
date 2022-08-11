@@ -4,6 +4,46 @@
   box-sizing: border-box; }
 
 :root {
-  --raleway: 'Raleway', sans-serif; }
+  --raleway: 'Raleway', sans-serif;
+  --white: #fff;
+  --black: #000 ; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 90%;
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  gap: 5px;
+  overflow: hidden;
+  align-items: center; }
+
+.header {
+  height: 500px; }
+  .header .textos-hero {
+    grid-column: 1/7;
+    padding-right: 20px; }
+    .header .textos-hero .weight-600 {
+      font-size: 600; }
+    .header .textos-hero .paragraph {
+      font-size: 20px;
+      text-align: justify; }
+    .header .textos-hero .cta {
+      text-decoration: none;
+      background-color: var(--black);
+      color: var(--white);
+      padding: 5px 15px;
+      margin-top: 15px;
+      display: inline-block;
+      width: 130px;
+      text-align: center; }
+  .header .img-hero {
+    width: 100%;
+    height: auto;
+    grid-column: 7/13; }
+    .header .img-hero .img {
+      width: 95%;
+      max-width: 400px; }
 
 /*# sourceMappingURL=estilos.css.map */
